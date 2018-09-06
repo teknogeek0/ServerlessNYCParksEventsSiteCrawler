@@ -1,0 +1,7 @@
+*/
+!/.gitignore
+easy_*
+*packaged.yaml
+six*
+lambda-payloads.json
+.application.json
