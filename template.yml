@@ -5,6 +5,7 @@ Resources:
   Parser:
     Type: 'AWS::Serverless::Function'
     Properties:
+      CodeUri: .
       Handler: index.handler
       Runtime: python2.7
       Timeout: 120
