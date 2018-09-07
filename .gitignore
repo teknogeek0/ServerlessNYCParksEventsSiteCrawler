@@ -1,7 +1,7 @@
 */
 !/.gitignore
 easy_*
-*packaged.yaml
+packaged*
 six*
 lambda-payloads.json
 .application.json
