@@ -5,7 +5,7 @@ Resources:
   Parser:
     Type: 'AWS::Serverless::Function'
     Properties:
-      CodeUri: .
+      CodeUri: s3://teknogeek-sar-apps/ServerlessNYCParksEventsSiteCrawler/7c468d01076c5eebe1fde4eadd47640d
       Handler: index.handler
       Runtime: python2.7
       Timeout: 120
